@@ -53,4 +53,13 @@ se suma su probabilida individual y se resta la probabilidad de que ocurran en s
 
 * P(A o B) = P(A) + P(B) - P(A y B)
 
+## Inferencia estadistica
+
+El principio guia de la inferencia Estadística es que una muestra aletoria tiende a exhibir las mismas propiedades de la cual fue extraída.
+
+por lo cual problemas con grandes grupos de datos y enormes datasets probrian ser resueltos con inferencia estadistica al trabajar con una muestra aleatoria representativa de todos los datos.
+
+### Ley de los grandes numeros
+
+En pruebas independientes repetidas con la misma probabilidad p de un resultado, la fraccion de desviaciones de p converge a cero conforme las cantidaddes de pruebas se acerca al infinito.
 
