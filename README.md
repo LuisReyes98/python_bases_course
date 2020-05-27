@@ -63,3 +63,24 @@ por lo cual problemas con grandes grupos de datos y enormes datasets probrian se
 
 En pruebas independientes repetidas con la misma probabilidad p de un resultado, la fraccion de desviaciones de p converge a cero conforme las cantidaddes de pruebas se acerca al infinito.
 
+## Falacia del apostador
+
+Es falso que despues de un evento extremo es mas probable que un evento extremo opuesto tambien ocurra para equilibrar la media.
+
+## Regresion a la media
+
+Es cierto que despues de un evento extremo es menos probable que el proximo evento sea igual de extremo.
+
+## Varianza
+
+Mide que tan propagados estan los datos
+
+siempre se entiende respecto a la media
+
+## Desviacion estandar
+
+Es la raiz cuadrada de la varianza y permite entender la propagacion de los datos.
+
+## Distribucon normal
+
+es la mas recurrente, se define completamente por su media.
