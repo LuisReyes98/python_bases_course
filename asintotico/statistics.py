@@ -2,12 +2,12 @@ import random
 import math as m
 
 
-def media(X):
+def median(X):
     return sum(X) / len(X)
 
 
-def varianza(X):
-    mu = media(X)
+def variance(X):
+    mu = median(X)
 
     acumulador = 0
 
@@ -17,16 +17,16 @@ def varianza(X):
     return acumulador / len(X)
 
 
-def desviacion_estandar(X):
-    return m.sqrt(varianza(X))
+def standard_deviation(X):
+    return m.sqrt(variance(X))
 
 
 if __name__ == "__main__":
     X = [random.randint(1, 21) for i in range(20)]
 
-    mu = media(X)
-    Var = varianza(X)
-    sigma = desviacion_estandar(X)
+    mu = median(X)
+    Var = variance(X)
+    sigma = standard_deviation(X)
     print(f'Areglo X: {X}')
     print(f'Media: {mu}')
     print(f'Varianza: {Var}')
